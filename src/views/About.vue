@@ -32,6 +32,7 @@
       this.$store.commit('footer_bar_hidden');
     },
     destroyed(){
+
       this.$store.commit('footer_bar_show');
     }
   }
